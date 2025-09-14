@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>お問い合わせ｜確認｜自然の恵み農園</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="images/logo.svg" alt="自然の恵み農園ロゴ">
+        </a>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a href="index.html#about" class="header__nav-link">私たちについて</a></li>
+          <li class="header__nav-item"><a href="index.html#activities" class="header__nav-link">活動紹介</a></li>
+          <li class="header__nav-item"><a href="index.html#faq" class="header__nav-link">よくあるご質問</a></li>
+          <li class="header__nav-item"><a href="news.html" class="header__nav-link">お知らせ</a></li>
+          <li class="header__nav-item"><a href="index.html#access" class="header__nav-link">アクセス</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="header__contact-btn">お問い合わせ</a>
+    </div>
+  </header>
+  <main>
+    <div class="breadcrumb">
+      <a href="index.html">ホーム</a> &gt; お問い合わせ
+    </div>
+    <section class="contact-form">
+      <h1 class="contact-form__title">お問い合わせ</h1>
+      <div class="contact-form__card contact-form__card--confirm">
+        <div class="contact-form__confirm-list" id="confirmList">
+          <div class="contact-form__confirm-item">
+            <span class="contact-form__confirm-label">お問い合わせ種別 <span class="contact-form__required">必須</span></span>
+            <div class="contact-form__confirm-value" id="confirmType">-</div>
+          </div>
+          <div class="contact-form__confirm-item">
+            <span class="contact-form__confirm-label">お名前 <span class="contact-form__required">必須</span></span>
+            <div class="contact-form__confirm-value" id="confirmName">-</div>
+          </div>
+          <div class="contact-form__confirm-item">
+            <span class="contact-form__confirm-label">メールアドレス <span class="contact-form__required">必須</span></span>
+            <div class="contact-form__confirm-value" id="confirmEmail">-</div>
+          </div>
+          <div class="contact-form__confirm-item">
+            <span class="contact-form__confirm-label">電話番号</span>
+            <div class="contact-form__confirm-value" id="confirmTel">-</div>
+          </div>
+          <div class="contact-form__confirm-item">
+            <span class="contact-form__confirm-label">お問い合わせ内容 <span class="contact-form__required">必須</span></span>
+            <div class="contact-form__confirm-value" id="confirmMessage">-</div>
+          </div>
+        </div>
+        <div class="contact-form__submit">
+          <button type="button" class="btn btn--back" onclick="history.back()">戻る</button>
+          <button type="button" class="btn btn--submit" id="submitBtn">送信する</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__top">
+        <div class="footer__left">
+          <div class="footer__logo">
+            <img src="images/logo.svg" alt="自然の恵み農園ロゴ">
+          </div>
+          <div class="footer__company-info">
+            <div class="footer__address">
+              <p>〒123-4567</p>
+              <p>千葉県○○市××町1丁目23-45</p>
+            </div>
+            <div class="footer__contact">
+              <p>TEL:123-4567-8910</p>
+              <p>FAX:12-345-6789</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__right">
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item"><a href="index.html" class="footer__nav-link">ホーム</a></li>
+              <li class="footer__nav-item"><a href="index.html#about" class="footer__nav-link">私たちについて</a></li>
+              <li class="footer__nav-item"><a href="index.html#activities" class="footer__nav-link">活動紹介</a></li>
+              <li class="footer__nav-item"><a href="index.html#faq" class="footer__nav-link">よくあるご質問</a></li>
+              <li class="footer__nav-item"><a href="news.html" class="footer__nav-link">お知らせ</a></li>
+              <li class="footer__nav-item"><a href="index.html#access" class="footer__nav-link">アクセス</a></li>
+            </ul>
+          </nav>
+          <div class="footer__social">
+            <a href="https://twitter.com" target="_blank" class="footer__social-icon footer__social-icon--twitter">X</a>
+            <a href="https://instagram.com" target="_blank" class="footer__social-icon footer__social-icon--instagram">Instagram</a>
+            <a href="https://youtube.com" target="_blank" class="footer__social-icon footer__social-icon--youtube">YouTube</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© shizen-no-megumi-nouen Inc .2023</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/script.js" defer></script>
+</body>
+</html> 
